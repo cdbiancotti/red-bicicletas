@@ -1,4 +1,4 @@
-he initial structure of the project was created with express-generator and view=pug.
+The base structure of the project was created with express-generator and view=pug.
 
 Use nodemon to update changes without turn-off the server.
 

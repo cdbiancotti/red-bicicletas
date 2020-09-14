@@ -26,7 +26,6 @@ exports.postUpdateBike = function (req, res) {
   bike.id = req.body.id;
   bike.color = req.body.color;
   bike.model = req.body.model;
-  // const bike = new Bikes(req.body.id, req.body.color, req.body.model);
   bike.location = [req.body.lat, req.body.lng];
 
   res.redirect('/bikes');

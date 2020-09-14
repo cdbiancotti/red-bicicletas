@@ -16,6 +16,19 @@ exports.createBike = function (req, res) {
     bike: bike,
   });
 };
+
+exports.updateBike = function (req, res) {
+  const bike = Bikes.findById(req.body.id);
+  bike.id = req.body.id;
+  bike.color = req.body.color;
+  bike.model = req.body.model;
+  bike.location = [req.body.lat, req.body.lng];
+
+  res.status(200).json({
+    bike: bike,
+  });
+};
+
 exports.deleteBike = function (req, res) {
   Bikes.removeById(req.body.id);
   res.status(204).send();
