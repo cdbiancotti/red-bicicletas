@@ -5,9 +5,17 @@
 
 ==========================================================================================================================================
 
+SEMANA - 1
+
 Para los que vengan a corregir mi practicas les comento que las palabras usadas para las variables son en ingles ya que no sabia que iba a ser corregido la repo de lo llevado a cabo en las clases y hay algunos cambios que implemente aunque basicos que no influyen en la funcionalidad ( como usar const o let en lugar de var, o alguna función filter ). Mi plan es hacer el curso y despues darme el tiempo para pasarlo a ES6 para hacer un repaso del curso tras finalizarlo.
 
-La api utiliza los metodos http post, put y delete para la creación, edición y eliminación de datos. ( esta aclaración es por si la edición la hicieron con post también para que sepan que yo use otro método)
+La api utiliza los metodos http post, put y delete para la creación, edición y eliminación de datos. ( esta aclaración es por si la edición la hicieron con post también para que sepan que yo use otro método).
+
+==========================================================================================================================================
+
+SEMANA - 2
+
+No pude implementar el modulo "request" asi que en lugar de request estoy usando "axios"
 
 ==========================================================================================================================================
 
