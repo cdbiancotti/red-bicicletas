@@ -23,10 +23,10 @@ Bikes.findById = function (aBikeId) {
 Bikes.removeById = function (aBikeId) {
   Bikes.allBikes = Bikes.allBikes.filter((x) => x.id != aBikeId);
 };
-const a = new Bikes(1, 'red', 'urban', [-34.6012424, -58.3861497]);
-const b = new Bikes(2, 'white', 'urban', [-34.596932, -58.3808287]);
+// const a = new Bikes(1, 'red', 'urban', [-34.6012424, -58.3861497]);
+// const b = new Bikes(2, 'white', 'urban', [-34.596932, -58.3808287]);
 
-Bikes.add(a);
-Bikes.add(b);
+// Bikes.add(a);
+// Bikes.add(b);
 
 module.exports = Bikes;
